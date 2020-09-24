@@ -1,0 +1,18 @@
+.header{
+    height: 50px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    background: #8F9F9F;
+    /*border-bottom: 2px solid blue;*/
+    color: #fff;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.nav ul{
+    width: 400px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}

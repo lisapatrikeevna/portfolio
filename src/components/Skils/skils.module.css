@@ -1,0 +1,15 @@
+.container{
+    display: block;
+    background: #bbd7c8;
+    border: 2px solid #b0d0bf;
+    padding: 10px;
+}
+.wrappSkil{
+    border: 2px solid;
+    padding: 1em;
+    width: 20%;
+}
+.ollSkils{
+    display: flex;
+    justify-content: space-around;
+}

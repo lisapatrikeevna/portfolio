@@ -1,0 +1,14 @@
+.header{
+    height: 50px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    background: red;
+    border-bottom: 2px solid blue;
+}
+.nav ul{
+    width: 600px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}

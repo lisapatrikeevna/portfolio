@@ -1,0 +1,37 @@
+.container {
+    justify-content: space-around;
+    align-items: center;
+    background: #d7c5bb;
+    border: 2px solid #c9b3a7;
+    height: 100vh;
+}
+
+.textBlock {
+    width: 300px;
+}
+
+.textBlock h6:before {
+    display: block;
+    width: 25%;
+    height: 2px;
+    background: #000;
+    content: "";
+    margin-bottom: 7px;
+}
+
+.imageBlock {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #000;
+    padding: 1em;
+    height: min-content;
+    flex-wrap: wrap;
+    overflow: hidden;
+}
+
+.mainFoto {
+    width: 300px;
+    height: 400px;
+    overflow: hidden;
+}
