@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.306257c6.chunk.css",
+    "main.js": "/portfolio/static/js/main.6d5f7256.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.6d5f7256.chunk.js.map",
+    "runtime-main.js": "/portfolio/static/js/runtime-main.209c2d7e.js",
+    "runtime-main.js.map": "/portfolio/static/js/runtime-main.209c2d7e.js.map",
+    "static/js/2.2de7fc4b.chunk.js": "/portfolio/static/js/2.2de7fc4b.chunk.js",
+    "static/js/2.2de7fc4b.chunk.js.map": "/portfolio/static/js/2.2de7fc4b.chunk.js.map",
+    "index.html": "/portfolio/index.html",
+    "precache-manifest.42f738ebc61ca8c457e1cf15a681fb7c.js": "/portfolio/precache-manifest.42f738ebc61ca8c457e1cf15a681fb7c.js",
+    "service-worker.js": "/portfolio/service-worker.js",
+    "static/css/main.306257c6.chunk.css.map": "/portfolio/static/css/main.306257c6.chunk.css.map",
+    "static/js/2.2de7fc4b.chunk.js.LICENSE.txt": "/portfolio/static/js/2.2de7fc4b.chunk.js.LICENSE.txt",
+    "static/media/form.module.css": "/portfolio/static/media/formBG.23e5b36d.jpg",
+    "static/media/girl.png": "/portfolio/static/media/girl.defd5d0e.png",
+    "static/media/logo.png": "/portfolio/static/media/logo.10235e05.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.209c2d7e.js",
+    "static/js/2.2de7fc4b.chunk.js",
+    "static/css/main.306257c6.chunk.css",
+    "static/js/main.6d5f7256.chunk.js"
+  ]
+}
