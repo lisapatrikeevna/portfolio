@@ -1,10 +1,11 @@
 import React from 'react';
 import cl from  './header.module.css'
-
+import logo from './../image/logo.png'
 export const Header= ()=>{
 return(
     <div className={cl.header}>
-        <img src="http://webstydio.lisa15.ru/image/catalog/product_globo_logo01.png" alt="letLogo"/>
+        {/*<img src="http://webstydio.lisa15.ru/image/catalog/product_globo_logo01.png" alt="letLogo"/>*/}
+        <img src={logo} alt="letLogo" className={cl.logo}/>
         <Nav/>
     </div>
 

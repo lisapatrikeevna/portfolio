@@ -13,3 +13,19 @@
     display: flex;
     justify-content: space-around;
 }
+@media screen and (max-width: 600.98px) {
+    .ollSkils{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+.wrappSkil{
+    width: 380px;
+    margin: 7px 0;
+}
+}
+@media screen and (max-width: 400.98px) {
+.wrappSkil{
+    width: fit-content;
+}
+}

@@ -4,12 +4,30 @@
     border: 2px solid #b0d0bf;
     padding: 10px;
 }
-.wrappSkil{
+.wrappWork{
     border: 2px solid;
     padding: 1em;
     width: 20%;
 }
-.ollSkils{
+.ollWorks{
     display: flex;
     justify-content: space-around;
+}
+/* -	----- Media Queries ------ */
+
+/* 576-768px .col-sm-*/
+@media screen and (max-width: 767.98px) {
+
+}
+
+/* 320-576px .col-*/
+@media screen and (max-width: 575.98px) {
+.ollWorks{
+    flex-direction: column;
+    justify-content: center;
+}
+    .wrappWork{
+        width: fit-content;
+        margin: 5px;
+    }
 }

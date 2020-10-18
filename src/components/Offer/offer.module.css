@@ -1,0 +1,75 @@
+.offer {
+    background: #d7c5bb;
+    border: 2px solid #c9b3a7;
+    /*height: 100vh;*/
+}
+.container{
+    justify-content: space-around;
+    align-items: center;
+}
+.textBlock {
+    width: 300px;
+    /*background: #ffffff85;*/
+    padding: 7px;
+    height: max-content;
+}
+.textBlock h6:before {
+    display: block;
+    width: 25%;
+    height: 2px;
+    background: #2c2a40;
+    content: "";
+    margin-bottom: 7px;
+}
+
+.imageBlock {
+    /*display: flex;*/
+    /*justify-content: center;*/
+    /*align-items: center;*/
+    /*!*border: 2px solid #000;*!*/
+    /*padding: 1em;*/
+    /*height: min-content;*/
+    /*flex-wrap: wrap;*/
+    /*overflow: hidden;*/
+}
+
+.mainFoto {
+    /*width: 300px;*/
+    height: 400px;
+    /*overflow: hidden;*/
+}
+/* 768-992px .col-md-*/
+@media screen and (max-width: 991.98px) {
+    .container{
+        position: relative;
+        justify-content: start;
+    }
+.mainFoto{
+    position: absolute;
+    top: 0;
+    right: 5%;
+    width: 370px;
+    height: auto;
+}
+.textBlock{
+    background: #c9b3a7;
+    z-index: 4;
+    margin-top: 3%;
+}
+}
+/* 320-576px .col-*/
+@media screen and (max-width: 575.98px) {
+.container{
+    flex-direction: column-reverse;
+    justify-content: center;
+}
+    .mainFoto{
+        position: static;
+        width: 100%;
+    }
+    .textBlock{
+        margin: 0;
+        width: 100%;
+        background: transparent;
+    }
+}
