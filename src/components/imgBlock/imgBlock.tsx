@@ -14,12 +14,12 @@ type propsType={
 export const ImgBlock=(props:propsType)=>{
     return(
             <div className='dFlex wrap'>
-                <div  className="item"><span className="wrapp"><img src={clock} alt="clock"/></span></div>
-                <div  className="item"><span className="wrapp"><img src={aqua} alt="clock" /></span></div>
-                <div  className="item"><span className="wrapp"><img src={ing} alt="clock" /></span></div>
-                <div  className="item"><span className="wrapp"><img src={tcategory} alt="clock" /></span></div>
-                <div  className="item"><span className="wrapp"><img src={webs} alt="clock" /></span></div>
-                <div  className="item"><span className="wrapp"><img src={perwozilka} alt="clock" /></span></div>
+                <div  className="item"><img src={clock} alt="clock"/></div>
+                <div  className="item"><img src={aqua} alt="clock" /></div>
+                <div  className="item"><img src={ing} alt="clock" /></div>
+                <div  className="item"><img src={tcategory} alt="clock" /></div>
+                <div  className="item"><img src={webs} alt="clock" /></div>
+                <div  className="item"><img src={perwozilka} alt="clock" /></div>
             </div>
     )
 }
