@@ -42,7 +42,7 @@ export const Main = () => {
         },
         {
         //<i class="fab fa-opencart"></i>
-            img: <FontAwesomeIcon icon={faPeopleArrows}/>,
+            img: <FontAwesomeIcon icon={faPeopleArrows} />,
             name: "some name",
             desc: "Ut ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur?",
             background: "rgb(142 211 198)"

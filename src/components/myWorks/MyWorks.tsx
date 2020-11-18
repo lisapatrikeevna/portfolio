@@ -6,6 +6,8 @@ import swss from '../../image/girl.png';
 import clock from '../../image/clock.jpg';
 import {ImgBlock} from "../imgBlock/imgBlock";
 import { Route, NavLink } from 'react-router-dom';
+import {faEye, faHandPointUp, faPeopleArrows} from "@fortawesome/free-solid-svg-icons";
+import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 
 export const MyWorks = () => {
    let [open, setOpen] = useState<boolean>(false)
@@ -31,6 +33,7 @@ type workType={
     name:string
     desc:string
     link:string
+    hover: any
 }
 export const Main = (props: mainType) => {
     const works:Array<workType> = [
@@ -38,19 +41,22 @@ export const Main = (props: mainType) => {
             img: clock,
             name: "desing",
             desc: "Ut ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur?",
-            link: './carousel'
+            link: './carousel',
+            hover: <FontAwesomeIcon icon={faEye} />,
         },
         {
             img: clock,
             name: "some name",
             desc: "Ut ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur?",
-            link: '/imgBlock'
+            link: '/imgBlock',
+            hover: <FontAwesomeIcon icon={faHandPointUp} />,
         },
         {
             img: clock,
             name: "all types work",
             desc: "Ut ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur?",
-            link: 'https://lisapatrikeevna.github.io/portfolio/'
+            link: 'https://lisapatrikeevna.github.io/portfolio/',
+            hover: <p>click</p>,
         }
     ];
     return (
@@ -60,7 +66,7 @@ export const Main = (props: mainType) => {
                         return (
                             <div className={cl.wrappWork}>
                                 {/*<span onClick={onchengeOpen}><img src={s.img} alt="" className={cl.example}/></span>*/}
-                                <NavLink to={s.link}><img src={s.img} alt="" className={cl.example}/></NavLink>
+                                <NavLink to={s.link} className={cl.blend}><img src={s.img} alt="" className={cl.example}/><span >{s.hover}</span></NavLink>
                                 <p>{s.name}</p>
                                 <div>{s.desc}</div>
                             </div>

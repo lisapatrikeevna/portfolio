@@ -20,6 +20,44 @@ span .example{
 .example{
     width: 100%;
 }
+.blend{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+.blend span{
+    /*position: relative;*/
+    opacity: 1;
+    animation-duration: 7s;
+    animation-delay: 2s;
+    animation-iteration-count: 10;
+    animation-name: hover;
+}
+@keyframes  hover{
+    0%{opacity: 0}
+    25%{opacity: 0.3}
+    50%{opacity: 0.6}
+    100%{opacity: 1}
+}
+.blend p{
+    color: #fff;
+    font-size: 98px;
+    /* mix-blend-mode: overlay; */
+    position: absolute;
+    left: 50%;
+    top: -55%;
+    margin-left: -97px;
+}
+.blend svg{
+    color: #fff;
+    font-size: 98px;
+    /* mix-blend-mode: overlay; */
+    position: absolute;
+    left: 50%;
+    top: 30%;
+    margin-left: -49px;
+}
 /* -	----- Media Queries ------ */
 
 /* 576-768px .col-sm-*/

@@ -7,7 +7,7 @@
 .wrappSkil{
     /*border: 2px solid;*/
     padding: 1em;
-    margin: 5px;
+    margin: 1%;
     width: 20%;
 }
 .ollSkils{
@@ -18,15 +18,21 @@
     color: #fff;
 }
 .ollSkils div span{
-    width: 50px;
+    width: 58px;
+    height: 58px;
     margin: 0 auto;
-    display: block;
+    display: flex;
     background: #bbd7c8;
-    text-align: center;
+    justify-content: center;
+    align-items: center;
     transform: rotate(45deg);
 }
-span .svg-inline--fa.fa-react{
-    font-size: 30px!important;
+/*.wrappSkil span:first-child{*/
+/*    font-size: 30px;*/
+/*    transform: rotate(-45deg);*/
+/*!*}*!dont work*/
+.wrappSkil span svg{
+    font-size: 30px;
     transform: rotate(-45deg);
 }
 @media screen and (max-width: 600.98px) {
