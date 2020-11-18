@@ -73,6 +73,8 @@ export const Main = (props: mainType) => {
                         )
                     }
                 )}
+                
+                
             </div>
         </div>
     )
