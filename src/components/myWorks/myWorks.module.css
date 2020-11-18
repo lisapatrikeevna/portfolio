@@ -13,6 +13,13 @@
     display: flex;
     justify-content: space-around;
 }
+span .example{
+    margin: 5px;
+    overflow: hidden;
+}
+.example{
+    width: 100%;
+}
 /* -	----- Media Queries ------ */
 
 /* 576-768px .col-sm-*/

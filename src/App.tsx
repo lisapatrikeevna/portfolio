@@ -5,8 +5,11 @@ import {Offer} from "./components/Offer/Offer";
 import {SkilsSection} from "./components/Skils/Skils";
 import {MyWorks} from "./components/myWorks/MyWorks";
 import {FormWrap} from "./components/Form/FormWrap";
+import CaroselQ from "./components/carousel/carousel";
+
 
 function App() {
+
     return (
         <>
             <Header/>
@@ -14,6 +17,7 @@ function App() {
             <SkilsSection/>
             <MyWorks/>
             <FormWrap/>
+
         </>
     );
 }

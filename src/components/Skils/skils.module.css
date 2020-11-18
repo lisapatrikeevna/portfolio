@@ -7,11 +7,27 @@
 .wrappSkil{
     /*border: 2px solid;*/
     padding: 1em;
+    margin: 5px;
     width: 20%;
 }
 .ollSkils{
     display: flex;
-    justify-content: space-around;
+    /*justify-content: space-around;*/
+    justify-content: center;
+    flex-wrap: wrap;
+    color: #fff;
+}
+.ollSkils div span{
+    width: 50px;
+    margin: 0 auto;
+    display: block;
+    background: #bbd7c8;
+    text-align: center;
+    transform: rotate(45deg);
+}
+span .svg-inline--fa.fa-react{
+    font-size: 30px!important;
+    transform: rotate(-45deg);
 }
 @media screen and (max-width: 600.98px) {
     .ollSkils{

@@ -1,0 +1,32 @@
+.dFlex {
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+}
+
+.wrap {
+  flex-wrap: wrap;
+  justify-content: center;
+  transition: height 250ms ease-out 0s;
+}
+
+.item {
+  width: 32.33333333%;
+  margin: 5px;
+  height: fit-content;
+  //display: inline-flex;
+}
+
+.wrapp {
+
+  transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1);
+}
+
+.item img {
+  width: 100%;
+}
+
+
+//npm i node-sass

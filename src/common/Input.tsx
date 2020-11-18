@@ -2,7 +2,7 @@ import {ChangeEvent, useState} from "react";
 import React from "react";
 type inputType={
     type:string
-    placeholder:string
+    placeholder:any
 }
 export const Input=(props:inputType)=>{
     let[value,setValue]=useState('')

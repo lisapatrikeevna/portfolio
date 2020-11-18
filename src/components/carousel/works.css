@@ -1,0 +1,29 @@
+.dFlex {
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+}
+.works{
+
+}
+.carousel {
+    width: fit-content;
+    margin: 0 auto;
+}
+.carousel .slide{
+    background: transparent;
+
+}
+.works .carousel .slide{
+   /*max-width: 40%;*/
+}
+.carousel .slide .legend{
+    left: 58%;
+}
+.itemWork{
+    width: 80%;
+    margin: 0 auto;
+    /*width: 400px!important;*/
+}
