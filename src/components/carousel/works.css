@@ -20,7 +20,9 @@
    /*max-width: 40%;*/
 }
 .carousel .slide .legend{
-    left: 58%;
+    margin-left: -100px;
+    width: 200px;
+    height: auto;
 }
 .itemWork{
     width: 80%;
