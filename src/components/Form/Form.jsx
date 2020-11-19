@@ -20,11 +20,11 @@ export const Form = () => {
                 </div>
                 <form className={cl.form}>
                     <h4>you can write me ;-)</h4>
-                   <span className={cl.inputWrap}> <Input type={'text'} placeholder={'name'}/></span>
-                   <span className={cl.inputWrap}> <Input type={'text'} placeholder={mail}/></span>
-                   <span className={cl.inputWrap}> <Input type={'text'} placeholder={'viber'}/></span>
-                  <span className={cl.inputWrap}>  <Input type={'text'} placeholder={'telegram'}/></span>
-                   <span className={cl.btnWrap}> <button className={cl.btn}>send</button></span>
+                   <div className={cl.inputWrap}> <Input type={'text'} placeholder={'name'}/></div>
+                   <div className={cl.inputWrap}> <Input type={'text'} placeholder={'mail'}/></div>
+                   <div className={cl.inputWrap}> <Input type={'text'} placeholder={'viber'}/></div>
+                  <div className={cl.inputWrap}>  <Input type={'text'} placeholder={'telegram'}/></div>
+                   <div className={cl.btnWrap}> <button className={cl.btn}>send</button></div>
 
                 </form>
             </div>

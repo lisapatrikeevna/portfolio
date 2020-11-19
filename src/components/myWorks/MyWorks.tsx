@@ -56,7 +56,8 @@ export const Main = (props: mainType) => {
             name: "all types work",
             desc: "Ut ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur?",
             link: 'https://lisapatrikeevna.github.io/portfolio/',
-            hover: <p>click</p>,
+            // hover: <p>click</p>,
+            hover: '',
         }
     ];
     return (
