@@ -12,7 +12,7 @@ import {faCode} from "@fortawesome/free-solid-svg-icons/faCode";
 
 export const SkilsSection = () => {
     return (
-        <div className={cl.MySkils}>
+        <div className={cl.MySkils} id={'skils'}>
             <div className={`${style.container} ${cl.container}`}>
                 <h3>my skils</h3><FontAwesomeIcon icon={["fas", "coffee"]} />
                 <Main/>
@@ -24,39 +24,39 @@ export const Main = () => {
     const skils = [
         {
             img: <FontAwesomeIcon icon={faReact}/>,
-            name: "some name",
-            desc: "Ut ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur?",
+            name: "React",
+            desc: "TypeScript, Redux, Axios, Firebase, REST API, JavaScript, Storybook, Redux-thunk",
             background: "#8ec6d3"
         },
         {
             img: <FontAwesomeIcon icon={faOptinMonster}/>,
-            name: "some name",
-            desc: "Ut ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur?",
+            name: "soft skills",
+            desc: "do not kill the client for the edits made the day before the delivery of the project",
             background: "#bbcbd7"
         },
         {
             img: <FontAwesomeIcon icon={faChalkboardTeacher}/>,
             name: "some name",
-            desc: "Ut ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur?",
+            desc: "Matireal-UA, Semantic-ui, Formik, Redux-form",
             background: "#dbc6dd"
         },
         {
         //<i class="fab fa-opencart"></i>
             img: <FontAwesomeIcon icon={faPeopleArrows} />,
             name: "some name",
-            desc: "Ut ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur?",
+            desc: "team gathering and drawing up of those tasks",
             background: "rgb(142 211 198)"
         },
         {
             img: <FontAwesomeIcon icon={faCode}/>,
-            name: "some name",
-            desc: "Ut ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur?",
+            name: "EDUCATION",
+            desc: "IT-INCUBATOR: React, Redux , TypeScript, Redux-thunk, Rest API . Codecademy: JS .  wayup: HTML, CSS",
             background: "rgb(215 193 187)"
         },
         {
             img: <FontAwesomeIcon icon={faFigma}/>,
-            name: "some name",
-            desc: "Ut ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur?",
+            name: "Figma & Adobe Photoshop",
+            desc: "basic knowledge for creating websites and layouts",
             background: "rgb(176 206 168)"
         }
     ]

@@ -11,7 +11,7 @@ export const Form = () => {
     //<i class="fab fa-telegram-plane"></i>
     let mail= [<FontAwesomeIcon icon={faEnvelope}/>,'mail']
     return (
-        <div className={cl.contacts}>
+        <div id={'contact'} className={cl.contacts}>
             <div className={`${style.container} ${cl.container}`}>
                 <div className={cl.textBlock}>
                     <h3>Ut ullam corporis suscipit</h3>

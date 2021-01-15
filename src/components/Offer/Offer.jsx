@@ -8,10 +8,13 @@ export const Offer = () => {
         <div className={`${cl.offer} `}>
             <div className={`${style.container} ${cl.container}`}>
                 <div className={cl.textBlock}>
-                    <h1>hi</h1>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
-                        ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation</p>
-                    <h6>consectetur adipiscing elit, sed do ei</h6>
+                    <h1>hi </h1>
+                    <p>Self-motivated and energetic FrontEnd developer with practical
+                        experience in React, Redux,
+                        JS,Opencart,PHP, HTML, CSS,
+                        self-discipline and teamwork skills.
+                    </p>
+                    <h6>in stealth about me</h6>
                 </div>
                 <div className={cl.imageBlock}><img className={cl.mainFoto} src={girl}/></div>
             </div>

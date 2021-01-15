@@ -9,7 +9,6 @@ import CaroselQ from "./components/carousel/carousel";
 
 
 function App() {
-
     return (
         <>
             <Header/>
