@@ -1,7 +1,7 @@
 .container{
     display: block;
-    background: #bbd7c8;
-    border: 2px solid #b0d0bf;
+    background: #bbcbd7;
+    border: 2px solid #afbfca;
     padding: 10px;
 }
 .wrappWork{
@@ -13,15 +13,16 @@
 .projekt h3{
     color: #fff;
     padding-left: 20px;
+    margin: 40px 0;
 }
 .projekt h3:after{
     display: block;
     content: '';
-    width: 45px;
+    width: 21%;
     height: 3px;
-    margin-left: 112px;
+    margin-left: 0px;
     background: #fff;
-    margin-top: -18px;
+    margin-top: 19px;
 }
 .ollWorks{
     display: flex;
@@ -71,13 +72,18 @@ span .example{
     color: #fff;
     font-size: 21px;
     position: absolute;
-    left: 47px;
-    top: 131px;
+    left: 33px;
+    top: -18px;
     /* mix-blend-mode: overlay; */
     /*position: absolute;*/
     /*left: 50%;*/
     /*top: 30%;*/
     margin-left: -49px;
+}
+.uppercase{
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 20px;
 }
 /* -	----- Media Queries ------ */
 

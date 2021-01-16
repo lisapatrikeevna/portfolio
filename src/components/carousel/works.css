@@ -5,19 +5,12 @@
     display: -o-flex;
     display: flex;
 }
-.works{
-
-}
 .carousel {
     width: fit-content;
     margin: 0 auto;
 }
 .carousel .slide{
     background: transparent;
-
-}
-.works .carousel .slide{
-   /*max-width: 40%;*/
 }
 .carousel .slide .legend{
     margin-left: -100px;
@@ -28,4 +21,7 @@
     width: 80%;
     margin: 0 auto;
     /*width: 400px!important;*/
+}
+.carousel.carousel-slider .control-arrow:hover {
+    background: transparent;
 }

@@ -16,7 +16,7 @@ export const MyWorks = () => {
    let [open, setOpen] = useState<boolean>(false)
 
     return (
-        <div className={cl.projekt} id='projekt'>
+        <div className={cl.projekt} id='projekt' >
             <div className={`${style.container} ${cl.container}`}>
                 <h3>my works</h3>
                 <Main open={open} setOpen={setOpen}/>
@@ -44,7 +44,7 @@ export const Main = (props: mainType) => {
         {
             img: taxi,
             name: "desing",
-            desc: "Ut ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur?",
+            desc: "sometimes I have to design myself",
             link: './carousel',
             // hover: <FontAwesomeIcon icon={faEye} />,
             hover: <FontAwesomeIcon icon={faHandPointUp} />,
@@ -52,7 +52,7 @@ export const Main = (props: mainType) => {
         {
             img: aqaart,
             name: "full cycle",
-            desc: "Ut ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur?",
+            desc: "most of the sites are located on the opencart admin panel",
             link: '/fullcycle',
             hover: <FontAwesomeIcon icon={faHandPointUp} />,
         },
@@ -65,15 +65,15 @@ export const Main = (props: mainType) => {
             hover: <FontAwesomeIcon icon={faHandPointUp} />,
         }
     ];
+    // onClick={()=>{props.setOpen(!props.open)}}
     return (
         <div className={cl.MyWorks}>
             <div className={`${style.container} ${cl.ollWorks}`}>
                 {works.map(s => {
                         return (
                             <div className={cl.wrappWork}>
-                                {/*<span onClick={onchengeOpen}><img src={s.img} alt="" className={cl.example}/></span>*/}
                                 <NavLink to={s.link} className={cl.blend}><img src={s.img} alt="" className={cl.example}/><span >{s.hover}</span></NavLink>
-                                <p>{s.name}</p>
+                                <p className={cl.uppercase}>{s.name}</p>
                                 <div>{s.desc}</div>
                             </div>
                         )

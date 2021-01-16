@@ -7,15 +7,21 @@
 .MySkils h3{
     color: #fff;
     padding-left: 20px;
+    margin: 40px 0;
 }
 .MySkils h3:after{
     display: block;
     content: '';
-    width: 45px;
+    width: 21%;
     height: 3px;
-    margin-left: 92px;
+    margin-left: 0px;
     background: #fff;
-    margin-top: -18px;
+    margin-top: 19px;
+}
+.uppercase{
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 30px;
 }
 .wrappSkil{
     /*border: 2px solid;*/

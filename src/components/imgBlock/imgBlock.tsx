@@ -1,5 +1,4 @@
 import React from "react";
-import cl from './imgStyle.module.scss';
 import './imgStyle.scss';
 import clock from '../../image/clock.jpg';
 import aqua from '../../image/aqua.jpg';

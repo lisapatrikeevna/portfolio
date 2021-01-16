@@ -2,12 +2,18 @@
     padding: 20px;
     display: flex;
     justify-content: space-between;
-    background: red;
+    background: #8F9F9F;
     border-bottom: 2px solid blue;
 }
-.nav ul{
-    width: 600px;
+.nav{
     display: flex;
-    justify-content: space-between;
-    align-items: center;
+    width: 100%;
+}
+.nav ul{
+    width: 32.33%;
+    list-style: none;
+}
+.nav li a{
+    color: #fff;
+    text-decoration: none;
 }

@@ -12,7 +12,7 @@ import {faCode} from "@fortawesome/free-solid-svg-icons/faCode";
 
 export const SkilsSection = () => {
     return (
-        <div className={cl.MySkils} id={'skils'}>
+        <div className={cl.MySkils} id='skils'>
             <div className={`${style.container} ${cl.container}`}>
                 <h3>my skils</h3>
                 <Main/>
@@ -63,10 +63,9 @@ export const Main = () => {
     return (
         <div className={cl.ollSkils}>
             {skils.map(s => {
-                // return <div className={cl.wrappSkil} >
                 return <div className={cl.wrappSkil} style={{background: s.background}}>
                     <span>{s.img}</span>
-                    <p>{s.name}</p>
+                    <p className={cl.uppercase}>{s.name}</p>
                     <div>{s.desc}</div>
                 </div>
             }

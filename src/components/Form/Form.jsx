@@ -5,6 +5,7 @@ import style from "../../common/commonStyle.module.css";
 import {faReact} from "@fortawesome/free-brands-svg-icons/faReact";
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import {faEnvelope} from "@fortawesome/free-solid-svg-icons/faEnvelope";
+import './check.php'
 
 export const Form = () => {
     //<i class="fab fa-viber"></i>
@@ -25,6 +26,12 @@ export const Form = () => {
                    <div className={cl.inputWrap}> <Input type={'text'} placeholder={'viber'}/></div>
                   <div className={cl.inputWrap}>  <Input type={'text'} placeholder={'telegram'}/></div>
                    <div className={cl.btnWrap}> <button className={cl.btn}>send</button></div>
+                </form>
+                <form className="form" action="check.php" method="post">
+                    <input type="text" name="name" placeholder={" enter name"}/>
+                    <input type="email" name="email" placeholder={" enter email"}/>
+                    <input type="text" name="phone" placeholder={" enter your nomber"} />
+                    <button type="submit" name="button" className="send send-form">test</button>
 
                 </form>
             </div>

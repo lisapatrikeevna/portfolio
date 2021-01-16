@@ -7,6 +7,7 @@ import {MyWorks} from "./components/myWorks/MyWorks";
 import {FormWrap} from "./components/Form/FormWrap";
 import CaroselQ from "./components/carousel/carousel";
 import {Footer} from "./common/Footer";
+import {About} from "./components/about/About";
 
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
             <Header/>
             <Offer/>
             <SkilsSection/>
+            <About/>
             <MyWorks/>
             <FormWrap/>
             <Footer/>

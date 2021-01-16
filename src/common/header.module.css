@@ -30,19 +30,7 @@
     height: 60px;
     /*background: #fff;width: 100px;*/
 }
-
 /* -	----- Media Queries ------ */
-/*.col-xl-*/
-/* 992-1200px  .col-lg- */
-@media screen and (max-width: 1199.98px) {
-
-}
-
-/* 768-992px .col-md-*/
-@media screen and (max-width: 991.98px) {
-
-
-}
 
 /* 576-768px .col-sm-*/
 @media screen and (max-width: 767.98px) {
@@ -51,7 +39,19 @@
 
 /* 320-576px .col-*/
 @media screen and (max-width: 575.98px) {
-.nav {
-    display: none;
-}
+    .nav ul{
+       flex-direction: column;
+        align-items: self-end;
+        width: 260px;
+        background: #d2cee3;
+        margin-top: 74px;
+        z-index: 99999999999999;
+        position: absolute;
+        right: 5%;
+        padding: 20px;
+        visibility: collapse;
+    }
+    .nav li{
+        margin: 8px 0;
+    }
 }
