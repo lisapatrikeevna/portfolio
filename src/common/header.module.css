@@ -9,7 +9,13 @@
     font-weight: bold;
     text-transform: uppercase;
 }
-
+.header a{
+    color: #fff;
+    text-decoration: none;
+}
+.nav li a:hover{
+    border-bottom: 2px solid #fff;
+}
 .nav ul {
     width: 400px;
     display: flex;
@@ -17,7 +23,6 @@
     align-items: center;
     list-style: none;
 }
-
 .logo {
     width: 60px;
     border: 1px solid;

@@ -1,7 +1,7 @@
 import React from 'react';
 import cl from  './header.module.css'
 import logo from './../image/logo.png'
-import {NavLink} from "react-router-dom";
+import {Link, NavLink} from "react-router-dom";
 
 export const Header= ()=>{
 return(

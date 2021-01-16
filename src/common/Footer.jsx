@@ -1,10 +1,10 @@
 import React from 'react';
-import cl from  './header.module.css'
+import cl from  './footer.module.css'
 import {NavLink} from "react-router-dom";
 
-export const Header= ()=>{
+export const Footer = ()=>{
 return(
-    <div id={'footer'} className={cl.header}>
+    <div id={'footer'} className={cl.footer}>
         <Nav/>
     </div>
 

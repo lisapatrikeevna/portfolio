@@ -6,6 +6,7 @@ import {SkilsSection} from "./components/Skils/Skils";
 import {MyWorks} from "./components/myWorks/MyWorks";
 import {FormWrap} from "./components/Form/FormWrap";
 import CaroselQ from "./components/carousel/carousel";
+import {Footer} from "./common/Footer";
 
 
 function App() {
@@ -16,7 +17,7 @@ function App() {
             <SkilsSection/>
             <MyWorks/>
             <FormWrap/>
-
+            <Footer/>
         </>
     );
 }

@@ -14,7 +14,7 @@ export const SkilsSection = () => {
     return (
         <div className={cl.MySkils} id={'skils'}>
             <div className={`${style.container} ${cl.container}`}>
-                <h3>my skils</h3><FontAwesomeIcon icon={["fas", "coffee"]} />
+                <h3>my skils</h3>
                 <Main/>
             </div>
         </div>
@@ -71,7 +71,6 @@ export const Main = () => {
                 </div>
             }
             )}
-            <img src="" alt=""/>
 
         </div>
     )

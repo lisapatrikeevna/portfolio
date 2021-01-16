@@ -5,9 +5,23 @@
     padding: 10px;
 }
 .wrappWork{
-    border: 2px solid;
+    border: 2px solid #fff;
     padding: 1em;
     width: 20%;
+    color: #fff;
+}
+.projekt h3{
+    color: #fff;
+    padding-left: 20px;
+}
+.projekt h3:after{
+    display: block;
+    content: '';
+    width: 45px;
+    height: 3px;
+    margin-left: 112px;
+    background: #fff;
+    margin-top: -18px;
 }
 .ollWorks{
     display: flex;
@@ -55,10 +69,10 @@ span .example{
 }
 .blend svg{
     color: #fff;
-    font-size: 35px;
+    font-size: 21px;
     position: absolute;
-    left: 56px;
-    top: 2px;
+    left: 47px;
+    top: 131px;
     /* mix-blend-mode: overlay; */
     /*position: absolute;*/
     /*left: 50%;*/

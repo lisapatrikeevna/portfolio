@@ -4,6 +4,19 @@
     border: 2px solid #b0d0bf;
     padding: 10px;
 }
+.MySkils h3{
+    color: #fff;
+    padding-left: 20px;
+}
+.MySkils h3:after{
+    display: block;
+    content: '';
+    width: 45px;
+    height: 3px;
+    margin-left: 92px;
+    background: #fff;
+    margin-top: -18px;
+}
 .wrappSkil{
     /*border: 2px solid;*/
     padding: 1em;
@@ -27,10 +40,6 @@
     align-items: center;
     transform: rotate(45deg);
 }
-/*.wrappSkil span:first-child{*/
-/*    font-size: 30px;*/
-/*    transform: rotate(-45deg);*/
-/*!*}*!dont work*/
 .wrappSkil span svg{
     font-size: 30px;
     transform: rotate(-45deg);

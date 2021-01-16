@@ -5,9 +5,10 @@ import hand from '../../image/1HO.jpg';
 import taxi from '../../image/taxi.jpg'
 import fl1 from './../../image/fl1.jpg';
 import fl from './../../image/fl.jpg';
-import perevoz from '../../image/perevoz.jpg';
-import pnevma from '../../image/Pn.jpg';
+import lisa from '../../image/lisa.jpg';
+import aqa from '../../image/aqaart-pro.jpg';
 import pechati from '../../image/pechati.jpg';
+import clock from '../../image/clock.jpg';
 import './works.css';
 
 type propsType={
@@ -29,7 +30,7 @@ const CaroselQ =(props:propsType)=> {
             desk: '1 hand'
         },
         {
-            img: pnevma,
+            img: aqa,
             desk: 'PnevmaLux servise'
         },
         {
@@ -41,8 +42,20 @@ const CaroselQ =(props:propsType)=> {
             desk: 'flowers shop 1'
         },
         {
+            img: lisa,
+            desk: 'lisa'
+        },
+        {
             img: pechati,
             desk: 'pechati servise'
+        },
+        {
+            img: taxi,
+            desk: 'taxi servise'
+        },
+        {
+            img: clock,
+            desk: 'clock'
         },
             ];
     const itemwork=allWorks.map(i=> <div className="itemWork">

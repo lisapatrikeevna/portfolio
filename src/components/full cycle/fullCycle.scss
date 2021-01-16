@@ -1,17 +1,12 @@
-.wrap {
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
-  transition: height 250ms ease-out 0s;
-  flex-direction: column;
-  max-height: 276vh;
-  display: flex;
+.fullBlock {
+  max-height: 290vh;
 }
 
 .item {
   width: 32.33333333%;
   margin: 5px;
-  height: fit-content;
+  height: auto;
+  vertical-align: top;
   //display: inline-flex;
 }
 
