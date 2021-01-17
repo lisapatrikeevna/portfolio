@@ -16,10 +16,9 @@ return(
 )
 }
 export const Nav= ()=>{
-    let[collaps,setCollaps]=useState(true)
+    let[collaps,setCollaps]=useState(false)
     let onStyle = {}
     if(window.innerWidth < 576){
-        setCollaps(false)
          onStyle = {
             visibility:  collaps? "visible": "collapse"
         }

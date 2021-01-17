@@ -30,6 +30,9 @@
     height: 60px;
     /*background: #fff;width: 100px;*/
 }
+.carousel .thumbs{
+    white-space: pre-wrap!important;
+}
 /* -	----- Media Queries ------ */
 
 /* 576-768px .col-sm-*/
@@ -44,12 +47,13 @@
         align-items: self-end;
         width: 260px;
         background: #d2cee3;
-        margin-top: 74px;
+        margin-top: 33px;
         z-index: 99999999999999;
         position: absolute;
         right: 5%;
         padding: 20px;
         visibility: collapse;
+        transition: all .15s ease-in;
     }
     .nav li{
         margin: 8px 0;
