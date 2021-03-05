@@ -1,5 +1,6 @@
-<!-- <?php 
+<?php
 	// print_r($_POST);
+	header("Content-Type: text/html; charset=utf-8");
 	$name = $_POST['name'];
 	$email = $_POST['email'];
 	$phone = $_POST['phone'];
@@ -24,11 +25,11 @@
 
 	mail('lisa15.08patrikeevna@gmail.com',$subject, $message, $headers);
 
-	header('Location: /index.php');
+
 	
 
  ?>
- -->
+
  <?php
 if(count($_POST) > 0){
   //header("Content-Type: text/html; charset=utf-8");

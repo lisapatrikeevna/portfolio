@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.98b7cebd.chunk.css",
-    "main.js": "/portfolio/static/js/main.359b5a9b.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.359b5a9b.chunk.js.map",
+    "main.css": "/portfolio/static/css/main.965266f8.chunk.css",
+    "main.js": "/portfolio/static/js/main.f2dd251b.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.f2dd251b.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.209c2d7e.js",
     "runtime-main.js.map": "/portfolio/static/js/runtime-main.209c2d7e.js.map",
     "static/css/2.fb346933.chunk.css": "/portfolio/static/css/2.fb346933.chunk.css",
     "static/js/2.661f0bb8.chunk.js": "/portfolio/static/js/2.661f0bb8.chunk.js",
     "static/js/2.661f0bb8.chunk.js.map": "/portfolio/static/js/2.661f0bb8.chunk.js.map",
     "index.html": "/portfolio/index.html",
-    "precache-manifest.b1be0ac4b790ecfd83abeef485ff8a95.js": "/portfolio/precache-manifest.b1be0ac4b790ecfd83abeef485ff8a95.js",
+    "precache-manifest.74f146fe8a73992b6186967cc9fb4796.js": "/portfolio/precache-manifest.74f146fe8a73992b6186967cc9fb4796.js",
     "service-worker.js": "/portfolio/service-worker.js",
     "static/css/2.fb346933.chunk.css.map": "/portfolio/static/css/2.fb346933.chunk.css.map",
-    "static/css/main.98b7cebd.chunk.css.map": "/portfolio/static/css/main.98b7cebd.chunk.css.map",
+    "static/css/main.965266f8.chunk.css.map": "/portfolio/static/css/main.965266f8.chunk.css.map",
     "static/js/2.661f0bb8.chunk.js.LICENSE.txt": "/portfolio/static/js/2.661f0bb8.chunk.js.LICENSE.txt",
     "static/media/1HO.jpg": "/portfolio/static/media/1HO.8c2ca012.jpg",
     "static/media/aqaart-pro.jpg": "/portfolio/static/media/aqaart-pro.3e37171e.jpg",
     "static/media/aqua.jpg": "/portfolio/static/media/aqua.b6c23244.jpg",
-    "static/media/check.php": "/portfolio/static/media/check.9138711f.php",
+    "static/media/check.php": "/portfolio/static/media/check.717451ac.php",
     "static/media/clock.jpg": "/portfolio/static/media/clock.c165864a.jpg",
     "static/media/fl.jpg": "/portfolio/static/media/fl.7e84303a.jpg",
     "static/media/fl1.jpg": "/portfolio/static/media/fl1.2c92990f.jpg",
@@ -40,7 +40,7 @@
     "static/js/runtime-main.209c2d7e.js",
     "static/css/2.fb346933.chunk.css",
     "static/js/2.661f0bb8.chunk.js",
-    "static/css/main.98b7cebd.chunk.css",
-    "static/js/main.359b5a9b.chunk.js"
+    "static/css/main.965266f8.chunk.css",
+    "static/js/main.f2dd251b.chunk.js"
   ]
 }
