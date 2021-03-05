@@ -27,13 +27,13 @@ export const Form = () => {
                   <div className={cl.inputWrap}>  <Input type={'text'} placeholder={'telegram'}/></div>
                    <div className={cl.btnWrap}> <button className={cl.btn}>send</button></div>
                 </form>
-                <form className="form" action="check.php" method="post">
-                    <input type="text" name="name" placeholder={" enter name"}/>
-                    <input type="email" name="email" placeholder={" enter email"}/>
-                    <input type="text" name="phone" placeholder={" enter your nomber"} />
-                    <button type="submit" name="button" className="send send-form">test</button>
+                {/*<form className="form" action="check.php" method="post">*/}
+                {/*    <input type="text" name="name" placeholder={" enter name"}/>*/}
+                {/*    <input type="email" name="email" placeholder={" enter email"}/>*/}
+                {/*    <input type="text" name="phone" placeholder={" enter your nomber"} />*/}
+                {/*    <button type="submit" name="button" className="send send-form">test</button>*/}
 
-                </form>
+                {/*</form>*/}
             </div>
         </div>
     )
